@@ -33,7 +33,7 @@ body, html, p {
     margin-right: 0 !important;
 }
 
-.navbar-expand-lg .navbar-collapse {
+.navbar-collapse{
     justify-content: end !important;
 }
 
@@ -349,7 +349,7 @@ hr{
     visibility: hidden !important;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 767px) {
 
     body{
         background-color: white !important;
