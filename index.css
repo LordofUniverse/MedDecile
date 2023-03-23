@@ -1,0 +1,338 @@
+@font-face {
+    font-family: lucidaconsole;
+    src: url(lucidaconsolse.ttf);
+}
+
+body, html, p {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#topcontainer{
+    min-height: 100vh;
+    width: 100%;
+}
+
+#nav{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.bg-body-tertiary {
+    width: 100% !important;
+    border: 1px solid black;
+    margin: 1.5rem;
+}
+
+.me-auto {
+    margin-right: 0 !important;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: end !important;
+}
+
+.navbar {
+    --bs-navbar-color: none !important;
+}
+
+.d-flex{
+    margin-left: 10px !important;
+    height: 100% !important;   
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.form-control{
+    border-radius: 0px !important;
+    border-top-right-radius: 17px !important; 
+    border-bottom-right-radius: 17px !important; 
+    height: 33px !important;
+    background-color: #ECEEFD !important;
+    border-right: 2px solid #ECEEFD !important;
+    border-top: 2px solid #ECEEFD !important;
+    border-bottom: 2px solid #ECEEFD !important;
+    box-shadow: none;
+}
+
+.form-control:focus{
+    /* border-top: 2px solid blue !important;
+    border-right: 2px solid blue !important;
+    border-bottom: 2px solid blue !important; */
+    box-shadow: none;
+}
+
+#svgcont{
+    border-top-left-radius: 17px !important;   
+    border-bottom-left-radius: 17px !important;   
+    height: 33px;
+    background-color: #ECEEFD !important;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 2px solid #ECEEFD;
+}
+
+/* .form-control:focus ~ #svgcont{
+    border-left: 2px solid blue;
+    border-top: 2px solid blue;
+    border-bottom: 2px solid blue;
+} */
+
+.navbar-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-brand {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+}
+
+#svgbox{
+    height: 21px;
+}
+
+#navbox{
+    margin-top: 10%;
+    border: 1px solid black;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+hr{
+    opacity: 0.2;
+    padding: 0;
+    margin: 0;
+}
+
+#navleft{
+    width: 40%;
+    height: 80%;
+    display: flex;
+    justify-content: start;
+    margin-left: 2%;
+}
+
+#navright{
+    width: 40%;
+    height: 100%;
+}
+
+#about{
+    /* height: 82%; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+#aboutleft{
+    width: 45%;
+    /* height: 100%; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+#aboutright{
+    width: 45%;
+    /* height: 100%; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#textbox{
+    width: 80%;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+#bigtext{
+    font-weight: 700;
+}
+
+#mediumtext{
+    font-weight: 500;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+#smalltext{
+    font-weight: 300;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+#imglogo, #imagebox{
+    height: 100%;
+    width: 70%;
+}
+
+#imglogo2, #imagebox2{
+    height: 100%;
+    width: 80%;
+}
+
+#container2{
+    min-height: 100vh;
+    width: 100%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+#container2top{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    height: 60px;
+    width: 100%;
+}
+
+#container2titles{
+    width: 260px;
+    height: 35px;
+    background-color: #ECEEFD;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#diagnosetitle{
+    width: 100px;
+    height: 20px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-family: lucidaconsole;
+}
+
+#clinicaltitle{
+    width: 100px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: transparent;
+    color: black;
+    font-family: lucidaconsole;
+}
+
+#leftpart{
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn{
+    margin-top: 10px;
+}
+
+#rightpart{
+    width: 50%;
+    height: 67%;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#rightimg{
+    width: 400px;
+    height: 200px;
+}
+
+.lucidafont {
+    font-family: lucidaconsole;
+}
+
+#container2title, #container2titl{
+    font-size: 2rem;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+#meddecile{
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+#diagnosetitle:hover{
+    /* background-color: #D0D2E4; */
+    cursor: pointer;
+}
+
+#clinicaltitle:hover{
+    background-color: #D0D2E4;
+    cursor: pointer;
+}
+
+#container2bottom{
+    display: flex;
+    align-items: start;
+    /* height: calc(100% - 160px); */
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+    /* margin-top: 160px; */
+}
+
+#diagnosebox, #clinicalbox{
+    width: 80%;
+    /* height: 100%; */
+    color: black;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    /* position: absolute; */
+    flex-direction: row;
+}
+
+/* #clinicalbox{
+    visibility: hidden;
+}
+
+#diagnosebox{
+    visibility: visible;
+} */
+
+.boxtext{
+    text-align: start;
+    font-weight: 300;
+}
+
+#container3{
+    width: 100%;
+    min-height: 100vh;
+}
+
+#container3title{
+    height: 18vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 2rem;
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MedDecile</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./index.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  </head>
+    <body>
+
+        <div id = "topcontainer">
+            <div id = "nav">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+                    <a class="navbar-brand" href="#">MedDecile</a>
+                    </ul>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarScroll">
+                        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Playground</a>
+                        </li>
+                        <!-- li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Docs
+                            </a>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <!-- li class="nav-item">
+                            <a class="nav-link disabled">Link</a>
+                        </li -->
+                        <form class="d-flex" role="search">
+                        <div id = "svgcont">
+                            <svg id = "svgbox" viewBox="0 0 24 24" class="AlgoliaSearchIcon astro-OTPDT6JM" astro-icon="ri:search-line"><path fill="currentColor" d="m18.031 16.617 4.283 4.282-1.415 1.415-4.282-4.283A8.96 8.96 0 0 1 11 20c-4.968 0-9-4.032-9-9s4.032-9 9-9 9 4.032 9 9a8.96 8.96 0 0 1-1.969 5.617zm-2.006-.742A6.977 6.977 0 0 0 18 11c0-3.868-3.133-7-7-7-3.868 0-7 3.132-7 7 0 3.867 3.132 7 7 7a6.977 6.977 0 0 0 4.875-1.975l.15-.15z"></path></svg>
+                        </div>
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <!-- button class="btn btn-outline-success" type="submit">Search</button -->
+                        </form>
+                    </div>
+                    </div>
+                </nav>
+            </div>
+            <!-- hr/ -->
+            <div id = "about">
+                <div id = "aboutleft">
+                    <div id = "textbox">
+                        <h1 id = "bigtext">What is DECILE</h1>
+                        <b><p id = "mediumtext">Data Efficient Learning with Less Data</p></b>
+                        <br/>
+                        <p id = "smalltext">State of the art AI and Deep Learning are very data hungry. This comes at significant cost including larger resource costs (multiple expensive GPUs and cloud costs), training times (often times multiple days), and human labeling costs and time. Decile attempts to solve this by answering the following question. Can we train state of the art deep models with only a sample (say 5 to 10\%) of massive datasets, while having neglibible impact in accuracy? Can we do this while reducing training time/cost by an order of magnitude, and/or significantly reducing the amount of labeled data required?</p>
+                    </div>
+                </div>
+                <div id = "aboutright">
+                    <div id = "imagebox2">
+                        <img src="images/decile_logo.svg" id = "imglogo2">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id = "container2">
+            <div id = "container2titl">
+                <p id = "meddecile">
+                    MedDecile
+                </p>
+            </div>
+            <div id = "container2top">
+                <div id = "container2titles">
+                    <div id = "diagnosetitle">
+                        <p class = "lucidafont">DIAGNOSE</p>
+                    </div>
+                    <div id = "clinicaltitle">
+                        <p class = "lucidafont">CLINICAL</p>
+                    </div>
+                </div>
+            </div>
+            <div id = "container2bottom">
+                <div id = "diagnosebox">
+                    <div id = "leftpart">
+                        <div id = "container2title">
+                            DIAGNOSE
+                        </div>
+                        <p class = "boxtext"> We propose Diagnose (avoi<b>D</b>ing out-of-d<b>I</b>stribution d<b>A</b>ta usin<b>G</b> submodular i<b>N</b>f<b>O</b>rmation mea<b>S</b>ur<b>E</b>s), an active learning framework that can jointly model similarity and dissimilarity, which is crucial in mining indistribution data and avoiding <b>OOD (out-of-distribution)</b> data at the same time.</p>
+                        <button type="button" class="btn btn-outline-primary">Learn more</button>
+                    </div>
+                    <div id = "rightpart">
+                        <img id = "rightimg" src="images/Cords_Icon.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id = "container3">
+            <div id = "container3title">
+                TEAM
+            </div>
+            <hr/>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    </body>
+
+    <script src="main.js"></script> 
+</html>
