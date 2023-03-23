@@ -15,7 +15,7 @@ body, html, p {
 }
 
 #nav{
-    height: 80px;
+    min-height: 80px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -49,26 +49,23 @@ body, html, p {
     align-items: center !important;
 }
 
-.form-control{
+.form-control, .form-control2{
     border-radius: 0px !important;
     border-top-right-radius: 17px !important; 
     border-bottom-right-radius: 17px !important; 
     height: 33px !important;
     background-color: #ECEEFD !important;
-    border-right: 2px solid #ECEEFD !important;
-    border-top: 2px solid #ECEEFD !important;
-    border-bottom: 2px solid #ECEEFD !important;
     box-shadow: none;
+    border: none;
 }
 
-.form-control:focus{
-    /* border-top: 2px solid blue !important;
-    border-right: 2px solid blue !important;
-    border-bottom: 2px solid blue !important; */
-    box-shadow: none;
+.form-control:focus-visible, form-control2:focus, form-control:focus, form-control:focus-visible{
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
 }
 
-#svgcont{
+#svgcont, #svgcont2{
     border-top-left-radius: 17px !important;   
     border-bottom-left-radius: 17px !important;   
     height: 33px;
@@ -187,6 +184,7 @@ hr{
     color: black;
     display: flex;
     flex-direction: column;
+    margin-bottom: 50px;
 }
 
 #container2top{
@@ -336,3 +334,95 @@ hr{
     font-weight: 500;
     font-size: 2rem;
 }
+
+.btnvisibility{
+    visibility: hidden;
+}
+
+.btn{
+    visibility: visible;
+}
+
+#svgcont2, #svgbox2, .form-control2{
+    height: 0 !important;
+    /* width: 0 !important; */
+    visibility: hidden !important;
+}
+
+@media screen and (max-width: 750px) {
+
+    body{
+        background-color: white !important;
+    }
+
+    #aboutleft{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #aboutright{
+        width: 0%;
+        height: 0%;
+    }
+
+    #topcontainer, #container2{
+        min-height: 0;
+    }
+
+    #diagnosebox{
+        flex-direction: column;
+    }
+
+    #leftpart, #rightpart{
+        width: 100%;
+    }
+
+    .btnvisibility{
+        visibility: visible;
+    }
+
+    .btn{
+        visibility: hidden;
+    }
+
+    .form-control{
+        height: 0 !important;
+        width: 0 !important;
+        visibility: hidden;
+    }
+
+    #svgcont, #svgbox{
+        height: 0;
+    }
+
+    #svgcont2, .form-control2, #svgbox2{
+        visibility: visible !important;
+        border: none;
+    }
+    
+    #svgcont2, .form-control2{
+        height: 33px !important;
+        margin-bottom: 10px;
+    }
+
+    #svgbox2{
+        height: 21px !important;
+    }
+
+    .form-control2{
+        width: 79%;
+    }
+
+    .form-control2:focus-visible, form-control2:focus{
+        border: none !important;
+        outline: none;
+    }
+}
+
+/* @media screen and (max-width: 600px) {
+    body {
+        background-color: olive;
+    }
+} */
