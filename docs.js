@@ -7,6 +7,7 @@ let distilvisibility = document.getElementById("distilbox");
 let submodlibclicker = document.getElementById("submodlibtitle");
 let submodlibvisibility = document.getElementById("submodlibbox");
 let imagechanger = document.getElementById("rightimg");
+let linkchanger = document.getElementById("linkchanger");
 
 spearclicker.onclick = function() {
     spearclicker.style.backgroundColor = "black";
@@ -25,6 +26,8 @@ spearclicker.onclick = function() {
     imagechanger.style.width = "300px";
     imagechanger.style.height = "150px";
 
+    linkchanger.href = "https://github.com/decile-team/spear";
+
 }
 
 submodlibclicker.onclick = function() {
@@ -41,8 +44,10 @@ submodlibclicker.onclick = function() {
     document.getElementsByClassName("boxtext")[0].innerHTML = "<b>Submod</b>ular optimization <b>lib</b>rary (SUBMODLIB) is a mathematical framework used to select the most informative subset of data from massive datasets in a computationally efficient way. By leveraging the structure of submodular functions, which capture diminishing returns properties of data subsets, submodular optimization algorithms can quickly identify the most informative subset of data that can represent the whole dataset. This approach has been applied to various tasks, such as feature selection, document summarization, and active learning, resulting in more efficient and scalable data processing. ";
 
     imagechanger.src = "images/submodlib.png";
-    imagechanger.style.width = "400px";
-    imagechanger.style.height = "240px";
+    imagechanger.style.width = "300px";
+    imagechanger.style.height = "200px";
+
+    linkchanger.href = "https://github.com/decile-team/submodlib";
 
 }
 
@@ -63,6 +68,8 @@ cordsclicker.onclick = function() {
     imagechanger.style.width = "400px";
     imagechanger.style.height = "240px";
 
+    linkchanger.href = "https://github.com/decile-team/cords";
+
 }
 
 distilclicker.onclick = function() {
@@ -81,5 +88,7 @@ distilclicker.onclick = function() {
     imagechanger.src = "images/Distil_Icon.png";
     imagechanger.style.width = "400px";
     imagechanger.style.height = "240px";
+
+    linkchanger.href = "https://github.com/decile-team/distil";
 
 }
