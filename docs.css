@@ -331,7 +331,12 @@ hr{
 
 #rightimg{
     width: 400px;
-    height: 200px;
+    height: 240px;
+}
+
+#rightimghid{
+    height: 0px;
+    visibility: hidden;
 }
 
 .lucidafont {
@@ -341,7 +346,7 @@ hr{
 #container2title, #container2titl{
     font-size: 2rem;
     display: flex;
-    height: 100px;
+    /* height: 100px; */
     justify-content: center;
     align-items: center;
 }
@@ -362,6 +367,7 @@ hr{
     font-size: 3rem;
     font-weight: 700;
     font-family: 'Space Grotesk', sans-serif;
+    text-align: center;
 }
 
 #vspace{
@@ -421,7 +427,7 @@ p.indent {
     width: 800px;
 }
 
-#container2bottom{
+#container2bottom, #container2bottomhid{
     display: flex;
     align-items: start;
     /* height: calc(100% - 160px); */
@@ -430,6 +436,11 @@ p.indent {
     align-items: center;
     /* position: relative; */
     /* margin-top: 160px; */
+}
+
+#container2bottomhid{
+    height: 0;
+    visibility: hidden;
 }
 
 #diagnosebox, #clinicalbox{
@@ -516,12 +527,43 @@ p.indent {
 
     #leftpart, #rightpart{
         width: 100%;
+        align-items: center;
+    }
+
+    #diagnosebox{
+        width: 90%;
+    }
+
+    .boxtext{
+        text-align: center;
+    }
+
+    #rightimg{
+        visibility: visible;
+        margin-top: -42px;
+        margin-bottom: -10px;
+    }
+
+    #rightimghid{
+        visibility: visible;
+        width: 400px;
+        height: 200px;
+        margin-top: -42px;
+        margin-bottom: -10px;
+    }
+
+    #rightimghidspear{
+        visibility: visible;
+        width: 300px;
+        height: 160px;
+        margin-top: -75px;
     }
 
     .btnvisibility{
         visibility: visible !important;
         width: 115px;
         height: 37px;
+        margin-bottom: 30px;
     }
 
     .btn{
@@ -560,10 +602,35 @@ p.indent {
         border: none !important;
         outline: none;
     }
+
+    #docs-meddecile{
+        font-size: 3rem;
+    }
+
+    #docs-introduction{
+        font-size: 2rem;
+    }
+
+    p.indent{
+        text-indent: 0px;
+    }
+
+    #proof-2img{
+        height: 0;
+        margin-top: -50px;
+    }
+
+    #container2top{
+        height: 0;
+        visibility: hidden;
+    }
+
+    #container2bottomhid{
+        height: unset;
+        visibility: visible;
+    }
 }
 
-/* @media screen and (max-width: 600px) {
-    body {
-        background-color: olive;
-    }
-} */
+p{
+    font-family: 'Inter', sans-serif;
+}

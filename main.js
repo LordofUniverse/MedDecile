@@ -1,12 +1,3 @@
-// let formcontrol = document.getElementsByClassName("form-control")[0];
-// let svgcont = document.getElementById("svgcont");
-
-// formcontrol.onfocus = function() {
-//     svgcont.style.borderLeft = "2px solid blue";
-//     svgcont.style.borderTop = "2px solid blue";
-//     svgcont.style.borderBottom = "2px solid blue";
-// }
-
 let clinicalclicker = document.getElementById("clinicaltitle");
 let clinicalvisibility = document.getElementById("clinicalbox");
 let diagnoseclicker = document.getElementById("diagnosetitle");

@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MedDecile</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./docs.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  </head>
+    <body>
+
+        <div id = "topcontainer-docs">
+            <div id = "nav">
+                <nav class="navbar navbar-expand-md bg-body-tertiary">
+                    <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">MedDecile</a>
+                    </ul>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarScroll">
+                        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Playground</a>
+                        </li>
+                        <!-- li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Docs</a>
+                        </li -->
+                        <!-- li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li -->
+                        <!-- li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Docs
+                            </a>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li -->
+                        <!-- li class="nav-item">
+                            <a class="nav-link disabled">Link</a>
+                        </li -->
+                        <form class="d-flex" role="search">
+                        <div id = "svgcont">
+                            <svg id = "svgbox" viewBox="0 0 24 24" class="AlgoliaSearchIcon astro-OTPDT6JM" astro-icon="ri:search-line"><path fill="currentColor" d="m18.031 16.617 4.283 4.282-1.415 1.415-4.282-4.283A8.96 8.96 0 0 1 11 20c-4.968 0-9-4.032-9-9s4.032-9 9-9 9 4.032 9 9a8.96 8.96 0 0 1-1.969 5.617zm-2.006-.742A6.977 6.977 0 0 0 18 11c0-3.868-3.133-7-7-7-3.868 0-7 3.132-7 7 0 3.867 3.132 7 7 7a6.977 6.977 0 0 0 4.875-1.975l.15-.15z"></path></svg>
+                        </div>
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <!-- button class="btn btn-outline-success" type="submit">Search</button -->
+                        </form>
+                    </div>
+                    </div>
+                </nav>
+            </div>
+            <form class="d-flex" role="search">
+                <div id = "svgcont2">
+                    <svg id = "svgbox2" viewBox="0 0 24 24" class="AlgoliaSearchIcon astro-OTPDT6JM" astro-icon="ri:search-line"><path fill="currentColor" d="m18.031 16.617 4.283 4.282-1.415 1.415-4.282-4.283A8.96 8.96 0 0 1 11 20c-4.968 0-9-4.032-9-9s4.032-9 9-9 9 4.032 9 9a8.96 8.96 0 0 1-1.969 5.617zm-2.006-.742A6.977 6.977 0 0 0 18 11c0-3.868-3.133-7-7-7-3.868 0-7 3.132-7 7 0 3.867 3.132 7 7 7a6.977 6.977 0 0 0 4.875-1.975l.15-.15z"></path></svg>
+                </div>
+                <input class="form-control2 me-2" type="search" placeholder="Search" aria-label="Search">
+                <!-- button class="btn btn-outline-success" type="submit">Search</button -->
+            </form>
+
+        </div>
+
+        <div id = "container2-docs">
+            <div id = "container2titl">
+                <p id = "docs-meddecile">
+                    MedDecile
+                </p>
+            </div>
+            <div id = "container2titl">
+                <p id = "docs-introduction">
+                    Introduction
+                </p>
+            </div>
+            <div id = "container2middle">
+                <p class = "indent">Deep neural networks(DNN) have revolutionized numerous fields, including image and video recognition, natural language processing, recommendation systems, finance, gaming, robotics, climate change, and transportation, among others. DNN offer several advantages over traditional machine learning algorithms, primarily due to their high accuracy in complex tasks like image or speech recognition. This is because deep neural networks can learn and represent intricate non-linear relationships between input variables and outcomes. Additionally, they enable automated feature extraction, reducing the need for manual feature engineering and making predictive analysis more efficient. Deep neural networks are also highly scalable, capable of working in high-dimensional feature spaces, and offer the benefit of transfer learning, allowing them to be trained for one task and then retrained for another. Although deep neural networks have been criticized for being difficult to interpret, recent advances in explainable AI have made it easier to understand their inner workings and predictions.</p>
+                <div container id = "vspace"></div>
+                <p class = "indent">Today, the healthcare industry generates vast amounts of data, particularly in the realm of medical imaging. This is due in part to rapid advancements in data acquisition techniques like MRI, CT scans, and whole slide images from pathology sections, among others. Consequently, the medical domain is now considered the next frontier for artificial intelligence and machine learning, with deep neural networks poised to play a significant role.  </p>
+                <div container id = "vspace"></div>
+                <p class = "indent">Despite the impressive progress made by deep neural networks, several disadvantages have hindered their widespread adoption. These networks demand high computational power, particularly during training, making them slow and costly when dealing with large networks. Additionally, deep neural networks require vast amounts of data for accurate training, necessitating equal representation across all datasets. A critical issue associated with deep neural networks is the need for large quantities of labeled data during training. Data labeling, typically performed by individuals, generates the so-called "ground truth," which is essential for supervised machine learning problems and closely linked to predictive accuracy. In essence, through the labeling we attempt to embed human knowledge and expertise into a machine-learning model, and high-quality labels are vital for driving effective predictive algorithms. In the medical domain, this challenge is magnified, as labeling is performed by medical experts, often requiring a consensus from at least three experts. This results in a high cost of labeling, making DNN adoption prohibitively expensive especially for low- and middle-income countries and low-resource settings. We propose to build a set of solutions under the umbrella of the framework called MED-DECILE (MEDical Imaging – Data EffiCIent Machine LEarning) that aims to address the above challenges in adapting DNN for the medical domain. MED-DECILE is an extension of our previous work specifically for the healthcare industry. We explain our proposal in detail in the following sections. </p>
+                <div container id = "vspace"></div>
+            </div>
+        </div>
+        <div container id = "megavspace"></div>
+
+        <div id = "container2-docs">
+            <div id = "container2titl">
+                <p id = "docs-introduction">
+                    Background & Significance 
+                </p>
+            </div>
+            <div id = "container2middle">
+                <p class = "indent">To address the issues in DNN such as the requirement of high computational power and vast amounts of labeled data, our research and development efforts are directed towards building solutions based on Data EffiCIent machine LEarning (DECILE) along with an open-source platform that resulted out of this effort (www.decile.org). In DECILE we have extensively explored if we can train state-of-the-art deep neural networks with only a small sample size of huge training datasets without significantly affecting the accuracy. We have also explored if we can bring down the training cost as well as time by a significant order of magnitude while at the same time reduce the amount of labeled data required for these processes. We attempt to solve this by answering the following question. Can we train state-of-the-art deep models with only a sample (say 5% to 10%, hence the name decile) of massive datasets, while having a negligible impact in accuracy? Can we do this while reducing training time/cost by an order of magnitude, and/or significantly reducing the amount of labeled data required? Our research in DECILE has yielded promising results, and we have published our findings in top machine learning and computer science conferences such as NeurIPS (Conference on Neural Information Processing Systems), ICML (International Conference on Machine Learning), AAAI (Association for the Advancement of Artificial Intelligence) and ICLR (International Conference on Learning Representations). These publications demonstrate the efficacy of our approach and its potential to address the challenges associated with training deep neural networks. Our research outcomes in DECILE are categorized into five different threads, each with a unique focus and set of publications: </p>
+                <div container id = "vspace"></div>
+                <!-- p class = "indent">Today, the healthcare industry generates vast amounts of data, particularly in the realm of medical imaging. This is due in part to rapid advancements in data acquisition techniques like MRI, CT scans, and whole slide images from pathology sections, among others. Consequently, the medical domain is now considered the next frontier for artificial intelligence and machine learning, with deep neural networks poised to play a significant role.  </p>
+                <div container id = "vspace"></div>
+                <p class = "indent">Despite the impressive progress made by deep neural networks, several disadvantages have hindered their widespread adoption. These networks demand high computational power, particularly during training, making them slow and costly when dealing with large networks. Additionally, deep neural networks require vast amounts of data for accurate training, necessitating equal representation across all datasets. A critical issue associated with deep neural networks is the need for large quantities of labeled data during training. Data labeling, typically performed by individuals, generates the so-called "ground truth," which is essential for supervised machine learning problems and closely linked to predictive accuracy. In essence, through the labeling we attempt to embed human knowledge and expertise into a machine-learning model, and high-quality labels are vital for driving effective predictive algorithms. In the medical domain, this challenge is magnified, as labeling is performed by medical experts, often requiring a consensus from at least three experts. This results in a high cost of labeling, making DNN adoption prohibitively expensive especially for low- and middle-income countries and low-resource settings. We propose to build a set of solutions under the umbrella of the framework called MED-DECILE (MEDical Imaging – Data EffiCIent Machine LEarning) that aims to address the above challenges in adapting DNN for the medical domain. MED-DECILE is an extension of our previous work specifically for the healthcare industry. We explain our proposal in detail in the following sections. </p -->
+                <div container id = "vspace"></div>
+            </div>
+            <div id = "container2top">
+                <div id = "container2titles-docs">
+                    <div id = "submodlibtitle">
+                        <p class = "lucidafont">SUBMODLIB</p>
+                    </div>
+                    <div id = "cordstitle">
+                        <p class = "lucidafont">CORDS</p>
+                    </div>
+                    <div id = "distiltitle">
+                        <p class = "lucidafont">DISTIL</p>
+                    </div>
+                    <div id = "speartitle">
+                        <p class = "lucidafont">SPEAR</p>
+                    </div>
+                </div>
+            </div>
+            <div id = "container2bottom">
+                <div id = "diagnosebox">
+                    <div id = "leftpart">
+                        <div id = "container2title">
+                            SUBMODLIB
+                        </div>
+                        <p class = "boxtext"> <b>Submod</b>ular optimization <b>lib</b>rary (SUBMODLIB) is a mathematical framework used to select the most informative subset of data from massive datasets in a computationally efficient way. By leveraging the structure of submodular functions, which capture diminishing returns properties of data subsets, submodular optimization algorithms can quickly identify the most informative subset of data that can represent the whole dataset. This approach has been applied to various tasks, such as feature selection, document summarization, and active learning, resulting in more efficient and scalable data processing. </p>
+                        <button type="button" class="btn btn-outline-primary">Learn more</button>
+                    </div>
+                    <div id = "rightpart">
+                        <img id = "rightimg" src="images/submodlib.png">
+                    </div>
+                    <button type="button" class="btnvisibility btn btn-outline-primary">Learn more</button>
+                </div>
+            </div>
+            <div id = "vspace"></div>
+            <div id = "container2bottomhid">
+                <div id = "diagnosebox">
+                    <div id = "leftpart">
+                        <div id = "container2title">
+                            CORDS
+                        </div>
+                        <p class = "boxtext"> Reduce end to end training time from days to hours and hours to minutes using coresets and data selection. <b>COR</b>esets and <b>D</b>ata <b>S</b>election (CORDS) implements a number of state-of-the-art data subset selection algorithms and coreset algorithms. Some of the algorithms currently implemented with CORDS include: GLISTER, GradMatchOMP, GradMatchFixed, CRAIG, SubmodularSelection, RandomSelection., etc</p>
+                        <button type="button" class="btn btn-outline-primary">Learn more</button>
+                    </div>
+                    <div id = "rightpart">
+                        <img id = "rightimghid" src="images/Cords_Icon.png">
+                    </div>
+                    <button type="button" class="btnvisibility btn btn-outline-primary">Learn more</button>
+                </div>
+            </div>
+            <div id = "vspace"></div>
+            <div id = "container2bottomhid">
+                <div id = "diagnosebox">
+                    <div id = "leftpart">
+                        <div id = "container2title">
+                            SPEAR
+                        </div>
+                        <p class = "boxtext"> <b>Submod</b>ular optimization <b>lib</b>rary (SUBMODLIB) is a mathematical framework used to select the most informative subset of data from massive datasets in a computationally efficient way. By leveraging the structure of submodular functions, which capture diminishing returns properties of data subsets, submodular optimization algorithms can quickly identify the most informative subset of data that can represent the whole dataset. This approach has been applied to various tasks, such as feature selection, document summarization, and active learning, resulting in more efficient and scalable data processing. </p>
+                        <button type="button" class="btn btn-outline-primary">Learn more</button>
+                    </div>
+                    <div id = "rightpart">
+                        <img id = "rightimghidspear" src="images/SPEAR Logo.svg">
+                    </div>
+                    <button type="button" class="btnvisibility btn btn-outline-primary">Learn more</button>
+                </div>
+            </div>
+            <div id = "vspace"></div>
+            <div id = "container2bottomhid">
+                <div id = "diagnosebox">
+                    <div id = "leftpart">
+                        <div id = "container2title">
+                            DISTIL
+                        </div>
+                        <p class = "boxtext"> <b>D</b>eep d<b>I</b>ver<b>S</b>ified in<b>T</b>eractive <b>L</b>earning (DISTIL) is a PyTorch-based library that contains multiple cutting-edge active learning algorithms, allowing for faster and more efficient training with minimal modifications. The library provides an easy way to insert active learning selection into existing training loops, leading to high model performance with less labeled data. For those seeking to reduce labeling costs, DISTIL is a recommended solution for optimi zing data usage. </p>
+                        <button type="button" class="btn btn-outline-primary">Learn more</button>
+                    </div>
+                    <div id = "rightpart">
+                        <img id = "rightimghid" src="images/Distil_Icon.png">
+                    </div>
+                    <button type="button" class="btnvisibility btn btn-outline-primary">Learn more</button>
+                </div>
+            </div>
+            <div id = "vspace"></div>
+            <div id = "vspace"></div>
+            <div id = "finaltext">
+                <p>The research outcomes in DECILE and its various threads have resulted in several real-world applications that showcase the practical impact of our work.</p>
+            </div>
+        </div>
+        <div container id = "megavspace"></div>
+
+        <div id = "container2-docs">
+            <div id = "container2titl">
+                <p id = "docs-introduction">
+                    Proof of Concept
+                </p>
+            </div>
+            <div id = "container2middle">
+                <p class = "indent">We have embarked on this journey now to extend our previous success of decile.org by applying similar principles in the medical imaging domain which will ultimately contribute to development of and open-source library called as MED-DECILE (Lets have our MED-DECILE website here). Thus, we have already published a few scholarly articles demonstrating the utilization of data efficient machine learning in the medical imaging domain.  </p>
+                <div container id = "vspace"></div>
+                <p class = "indent">In our published paper DIAGNOSE (REF), we tackle the problem of out of distribution data which is very common in the medical imaging scenario due to differences in data collection procedures, demographics of the target population etc. Identifying these out of distribution samples that are significantly different than the usually present samples in the training data set is critical since they contribute substantially to unreliable predictions. Thus, a reliable method was developed to identify these out of distribution data points. We utilized submodular information measures to identify the diversity of a set of samples which were significantly different from the training data set and then removed them from the original data set. We demonstrated that this can be achieved even when we start with a very small number of labelled data points. </p>
+                <div container id = "vspace"></div>
+                <div container id = "vspace"></div>
+                <div container id = "vspace"></div>
+                <img id = "proof-1img" src="images/proof-1.png"/>
+                <div container id = "vspace"></div>
+                <div container id = "vspace"></div>
+                <p class = "indent">In yet another published paper CLINICAL (REF), we tackled the problem of unbalanced datasets which are very common in the medical imaging field which could bias the training of deep neural networks. We have demonstrated that utilizing targeted active learning approaches which helps in identifying difficult to classify data points and thus using them in the training process could improve the overall performance of the model. We used a submodular function for this process thereby diversifying the training data set.</p>
+                <div container id = "vspace"></div>
+                <div container id = "vspace"></div>
+                <div container id = "vspace"></div>
+                <img id = "proof-2img" src="images/proof-2.png"/>
+                <div container id = "vspace"></div>
+                <div container id = "vspace"></div>
+                <p class = "indent">Presently we are developing a novel way of generating labeling functions that are not driven by human heuristics but are defined by utilizing simple machine learning models that are trained on small amount of labeled data. These simple machine learning models which we call as shallow ML models then take a data point from the unlabeled lake set as an input and then attach a label to it or abstain from labeling this particular data point. These shallow ML models which are now our labeling functions thus generate noisy labels for datapoints in the unlabeled lake set which were then combined in a generative model as previously described by us, that assigns a final label to each unlabeled data point as well as provides a confidence score for that particular label. We then defined a threshold for this confidence score above which the label assigned by the generative model was considered a true label and added to the small set of labeled data points. This increased the total number of labeled data points and the whole process was repeated iteratively till we labeled all data points from the unlabeled lake set  </p>
+                <div container id = "vspace"></div>
+                <p class = "indent">Another problem statement we are presently working on is whole slide images (WSI). Identifying and counting cells in a WSI forms the basis of clinical diagnosis as well as markers of progression and severity in certain diseases. Different cells in a WSI can be identified due to their characteristic staining and simple computer vision (CV) functions can be developed to identify these cells as noisy regions of interest (ROIs). If appropriately filtered, these noisy labels with high degree of confidence can be used to train Deep ML models to further identify cells of interest that could not be identified by the aforementioned simple CV models. In the present set of experiments, post simple CV functions to identify ROIs, we utilized Wasserstein mean clustering to leverage its ability to cluster based on geometric similarity between noisy ROIs to filter out the outlier.  These weakly-supervised labels were then used to train a deep ML model. This process was iterated to robustly identify cells of interest in WSI with similar degree of accuracy compared to state-of-the-art models (Let’s put a flowchart from Raja).</p>
+                <div container id = "vspace"></div>
+                <p class = "indent">Thus, it can be understood that we are applying data efficient machine learning approaches to complex as well as realistic medical imaging problems which have the potential to go a long way in democratizing the use of machine learning in the medical domain in low resource settings.</p>
+                <div container id = "vspace"></div>
+            </div>
+        </div>
+        <div container id = "megavspace"></div>
+
+        <div id = "container2-docs">
+            <div id = "container2titl">
+                <p id = "docs-introduction">
+                    Implementation Plan
+                </p>
+            </div>
+            <div id = "container2middle">
+                <p class = "indent">To transform MED-DECILE from a proof of concept into a framework that can be used by the healthcare industry </p>
+                <div container id = "vspace"></div>
+                <p class = "indent"></p>
+                <div container id = "vspace"></div>
+                <p class = "indent"></p>
+                <div container id = "vspace"></div>
+            </div>
+        </div>
+        <div container id = "megavspace"></div>
+
+        <div id = "container2-docs">
+            <div id = "container2titl">
+                <p id = "docs-introduction">
+                    Future Directions and Impact
+                </p>
+            </div>
+            <div id = "container2middle">
+                <p class = "indent"></p>
+                <div container id = "vspace"></div>
+                <p class = "indent"></p>
+                <div container id = "vspace"></div>
+                <p class = "indent"></p>
+                <div container id = "vspace"></div>
+            </div>
+        </div>
+        <div container id = "megavspace"></div>
+
+        <div id = "container2-docs">
+            <div id = "container2titl">
+                <p id = "docs-introduction">
+                    Conclusion
+                </p>
+            </div>
+            <div id = "container2middle">
+                <p class = "indent"></p>
+                <div container id = "vspace"></div>
+                <p class = "indent"></p>
+                <div container id = "vspace"></div>
+                <p class = "indent"></p>
+                <div container id = "vspace"></div>
+            </div>
+        </div>
+        <div container id = "megavspace"></div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    </body>
+
+    <script src="docs.js"></script> 
+</html>
